@@ -10,4 +10,4 @@ cat /etc/ansible/hosts
 # install the telnet package on the server 
 ansible webserver -s -m yum -a 'pkg=telnet state=installed update_cache=ture'
 
-# 1) 
+# . 
