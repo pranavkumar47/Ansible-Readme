@@ -1,0 +1,15 @@
+--- #playbook and add the following to the target section we just created:
+
+#- Force use of SSH connections
+
+#- Always run the playbook as the user 'test'
+
+#- Run this playbook as SUDO by default
+
+#- Do not use the setup module to gather facts from systems during execution 
+
+-hosts: webserver 
+ user: test 
+ sudo: yes
+ connection: ssh 
+ gather_facts: no 
