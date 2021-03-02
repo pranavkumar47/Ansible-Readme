@@ -11,3 +11,4 @@ cat /etc/ansible/hosts
 ansible webserver -s -m yum -a 'pkg=telnet state=installed update_cache=ture'
 
 #testing somethjing  
+hting
